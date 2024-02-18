@@ -8,6 +8,7 @@ import { MainSidebarComponent } from './main-sidebar/main-sidebar.component';
 import { ContentWrapperComponent } from './content-wrapper/content-wrapper.component';
 import { ControlSidebarComponent } from './control-sidebar/control-sidebar.component';
 import { MainFooterComponent } from './main-footer/main-footer.component';
+import { FacialRecognitionComponent } from './facial-recognition/facial-recognition.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MainFooterComponent } from './main-footer/main-footer.component';
     MainSidebarComponent,
     ContentWrapperComponent,
     ControlSidebarComponent,
-    MainFooterComponent
+    MainFooterComponent,
+    FacialRecognitionComponent
   ],
   imports: [
     BrowserModule,
